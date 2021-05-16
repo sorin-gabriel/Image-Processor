@@ -1,0 +1,4 @@
+test0.bmp
+filter_example.txt
+pooling_example.txt
+clustering_example.txt
