@@ -707,7 +707,7 @@ int main() {
 
     // solve tasks
 
-    edge_detect(in_data, in_img, 0.1);
+    edge_detect(in_data, in_img, 0.2);
     grayscale(in_data, in_img);
     no_crop(in_data, in_img);
     convolutional_layers(in_data, in_img);
