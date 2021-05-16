@@ -1,3 +1,14 @@
+Input image:
+
+<img src="test0.bmp" alt="Input image" width="320"/>
+
+Outputs:
+
+<img src="test0_edges.bmp" alt="Edge detection" width="320"/> <img src="test0_filter.bmp" alt="Convolutional filter" width="320"/>
+<img src="test0_clustered.bmp" alt="Clustering algorithm" width="320"/> <img src="test0_black_white.bmp" alt="Black and white" width="320"/>
+<img src="test0_nocrop.bmp" alt="Uncropped image" width="320"/> <img src="test0_pooling.bmp" alt="Pooling algorithm" width="320"/>
+
+
 Pe langa structurile predefinite in bmp_header.h, am definit mai multe
 structuri, cu rolul de a organiza mai bine componentele unei imagini si a
 face procesul de creare/scriere/citire a imaginilor unul usor de urmarit:
